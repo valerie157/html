@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat photos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Cat app</h1>
+        
+        <p>This is a cat app</p>
+        <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com" target="_blank">Link to cat pictures</a>
+        <img src="download.jfif" alt="A cat">
+    </main>
+
+    <section>
+        <h2>Cat List</h2>
+        
+        <h3>Things Cats Love</h3>
+        <!-- Unordered list -->
+        <ul>
+            <li>Balls</li>
+            <li>Blankets</li>
+            <li>Sleeping</li>
+        </ul>
+        
+        <!-- Figure with multiple images and captions -->
+        <figure>
+            <img src="download (1).jfif" alt="Ball picture">
+            <figcaption><em>Cats love</em> balls</figcaption>
+
+            <img src="download (4).jfif" alt="Blankets picture">
+            <figcaption><em>Cats love</em> blankets</figcaption> 
+
+            <img src="download (5).jfif" alt="Sleeping cat picture">
+            <figcaption><em>Cats love</em> sleeping</figcaption>
+        </figure>
+
+        <h3>Top 3 Things Cats Hate</h3>
+        <!-- Ordered list -->
+        <ol>
+            <li>Flea treatment</li>
+            <li>Injections</li>
+            <li>Other cats</li>
+        </ol>
+
+        <!-- Figure with multiple images and captions -->
+        <figure>
+            <img src="download (2).jfif" alt="Flea treatment picture">
+            <figcaption><em>Cats hate</em> flea treatment</figcaption>
+
+            <img src="download (3).jfif" alt="Other cats picture">
+            <figcaption><em>Cats hate</em> other cats</figcaption>
+
+            <img src="download (6).jfif" alt="Injections picture">
+            <figcaption><em>Cats hate</em> injections</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Cat Form</h2>
+        <!-- Form with radio buttons -->
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>Select your cat's gender:</legend>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+            </fieldset>
+
+            <fieldset>
+                <legend>Is your cat indoor or outdoor:</legend>
+                <label for="indoor">indoor</label>
+                <input type="radio" id="indoor">
+                
+                <label for="outdoor">Outdoor</label>
+                <input type="radio" id="outdoor">
+            </fieldset>
+
+            <fieldset>
+                <legend>what personality does your cat have:</legend>
+                <label for="loving">Loving</label>
+                <input type="radio" id="loving">
+                
+                <label for="cunning">Cunning</label>
+                <input type="radio" id="cunning">
+            </fieldset>
+            <br>
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
